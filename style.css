@@ -1,0 +1,75 @@
+body{
+	background-image: url(fon.jpg);
+	
+	background-repeat: repeat-y;
+	background-size: 100%;
+	padding-left: 10%
+}
+.box1{
+	width: 90%;
+	
+	
+	text-align: center;
+	color: white;
+	font-size: 3em;
+}
+.HP{
+	width: 70%;
+}
+#txt{
+	margin-right: 0;
+}
+.boxes{
+	display: flex;
+
+}
+.box2{
+	position: absolute;
+	background-image: url(harryL..jpg);
+	background-size: 100%;
+	width: 25%;
+	height: 50%;
+
+}
+.box2:hover{
+	position: absolute;
+	background-image: url(harry1.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 25%;
+	height: 50%;}
+
+.box2:nth-child(2){
+left: 38%;
+background-image: url(ron1.jpg);
+}	
+.box2:nth-child(2):hover{
+	background-image: url(ron2.jpg);
+	}
+.box2:nth-child(3){
+left: 67%;
+background-image: url(hermy.jpeg);
+}	
+.box2:nth-child(3):hover{
+	background-image: url(hermy2.jpg);
+	}
+.text{margin-top: 30%;}
+#text{
+	background-color: rgb(255,255,255,0.3);
+	width: 90%;
+	color: white;
+	margin-bottom: 2%;
+	font: 2em serif;
+	display: inline-block;
+}
+.gif{
+	margin-top: 30%;
+}
+.gif> img{
+height: 25%;
+margin-bottom:  3%;
+}
+#hog{
+	position: absolute;
+    top: 205%;
+}
